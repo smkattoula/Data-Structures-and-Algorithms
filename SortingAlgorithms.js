@@ -161,6 +161,8 @@ function swap(array, firstIndex, secondIndex) {
 quickSort(numbers, 0, numbers.length - 1);
 console.log(numbers);
 
+
+
 // Sorting Interview Practice
 
 //#1 - Sort 10 schools around your house by distance:
@@ -187,3 +189,24 @@ Quick sort
 
 //#8 - You want to teach sorting
 Bubble sort
+
+
+// Breadth First Search and Depth First Search Interview Questions
+
+//If you know a solution is not far from the root of the tree:
+BFS
+
+//If the tree is very deep and solutions are rare, 
+BFS (DFS will take long time. )
+
+//If the tree is very wide:
+DFS (BFS will need too much memory)
+
+//If solutions are frequent but located deep in the tree
+DFS
+
+//determining whether a path exists between two nodes
+DFS
+
+//Finding the shortest path
+BFS
